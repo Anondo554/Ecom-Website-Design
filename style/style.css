@@ -116,4 +116,71 @@ ul li a:hover {
   margin-left: 60px; 
   text-align: center;
  }
- 
+
+ /* bannar2 */ 
+
+ .bannaer-contiti {
+  display: flex;
+}
+
+.bannaer_two img {
+  width: 1519px; 
+  margin-top: 70px;
+  position: relative;
+}
+.bannar_text_one {
+  position: absolute;  
+  margin-top: 250px;
+  margin-left: 150px;
+}
+.bannar_text_one h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.bannar_text_one p {
+  font-size: 16px;
+  color: rgb(242, 218, 218);
+  padding-top: 20px;
+}
+.bannar_text_one button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+/* card image */
+
+.img_card{
+position: relative;
+}
+.img_card_text{
+height: 200px;
+width: 430px;
+background-color: aqua;
+position: absolute;
+transform: translate(50px, -150px);
+
+}
+.img_card_text h3{ 
+padding-top: 50px;
+padding-left: 10px;
+}
+
+.img_card_text p{  
+padding-left: 10px;
+}
+.img_card_text button{ 
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px; 
+  background-color: black;
+  color: white;
+}
+.img_main_card{
+  display: flex;
+  /* margin-left: 50px; */
+  justify-content:center ;
+  gap: 50px;
+  margin-top: 60px;
+}
